@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Matrix {
+public class matrix {
     public static void main(String[] args) {
         int i, j, k;
         int[][] a = new int[3][3];
@@ -9,7 +9,7 @@ public class Matrix {
         Scanner sc = new Scanner(System.in);
 
         // Taking input for matrix a
-        System.out.println("Enter the 3 X 3 matrix:");
+        System.out.print("Enter the 3 X 3 matrix:");
         for (i = 0; i < 3; i++) {
             for (j = 0; j < 3; j++) {
                 a[i][j] = sc.nextInt();
@@ -17,7 +17,7 @@ public class Matrix {
         }
 
         // Taking input for matrix b
-        System.out.println("Enter the 3 X 4 matrix:");
+        System.out.print("Enter the 3 X 4 matrix:");
         for (i = 0; i < 3; i++) {
             for (j = 0; j < 4; j++) {
                 b[i][j] = sc.nextInt();
