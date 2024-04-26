@@ -2,7 +2,7 @@
 // 4. Write two Java classes Employer and Engineer. Engineer should inherit from Employee class. Employee class to have two methods display() and calcSalary(). Write a program to display the engineer salary and to display from Employee class using a single object instantiation.(ie. only one object creation allowed)
 // -> display() only prints the name of the class and doe snot return any value. Ex. "Name of class in Employee"
 // -> calcSalary() in Employee displays "salary of employee is 10000" and calcSalary() in Engineer displays "Salary of employee is 20000".
-class Employee {
+class Employeee {
     void display() {
         System.out.println("Name of class in Employee");
     }
@@ -12,7 +12,7 @@ class Employee {
     }
 }
 
-class Engineer extends Employee {
+class Engineer extends Employeee {
     @Override
     void calcSalary() {
         System.out.println("Salary of employee is 20000");

@@ -1,4 +1,4 @@
-abstract class Shape {
+abstract class shape {
     abstract void numberOfSides();
 }
 
