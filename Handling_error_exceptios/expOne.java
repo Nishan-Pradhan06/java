@@ -1,8 +1,5 @@
-package Handling_error_exceptios;
+
 //the following is an array decleared with 10th elements. then code tres to access the 11th elements of the array which thows an exceptions.
-
-
-
 import java.io.*;
 
 public class expOne {
